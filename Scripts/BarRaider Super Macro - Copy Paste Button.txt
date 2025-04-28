@@ -1,0 +1,50 @@
+--------------
+Button 1
+--------------
+Short Press:
+{{VarSetFromClipboard:MyVar1}}
+{{SETCLIPBOARD:$MyVar2}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$MyVar1}}
+{{SETKEYTITLE:$MyVar2}}
+
+Long Press:
+{{VARSETFROMCLIPBOARD:MyVar2}}{{SETKEYTITLE:$MyVar2}}
+
+--------------
+Button 2
+--------------
+Short Press:
+{{VarSetFromClipboard:MyVar1}}
+{{SETCLIPBOARD:$MyVar3}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$MyVar1}}
+{{SETKEYTITLE:$MyVar3}}
+
+Long Press:
+{{VARSETFROMCLIPBOARD:MyVar3}}{{SETKEYTITLE:$MyVar3}}
+
+--------------
+Button 3
+--------------
+Short Press:
+{{VarSetFromClipboard:MyVar1}}
+{{SETCLIPBOARD:$MyVar4}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$MyVar1}}
+{{SETKEYTITLE:$MyVar4}}
+
+Long Press:
+{{VARSETFROMCLIPBOARD:MyVar4}}{{SETKEYTITLE:$MyVar4}}

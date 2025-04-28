@@ -1,0 +1,52 @@
+--------------
+Button 1 UPPER CASE
+--------------
+Short Press:
+{{VarSetFromClipboard:OriginalText1}}
+{{FUNC:UpperCase:FormattedText1:$OriginalText1}}
+{{SETCLIPBOARD:$FormattedText1}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$OriginalText1}}
+
+Long Press:
+{{SETCLIPBOARD:$FormattedText1}}
+
+
+--------------
+Button 2 Title Case
+--------------
+Short Press:
+{{VarSetFromClipboard:OriginalText1}}
+{{FUNC:TitleCase:FormattedText1:$OriginalText1}}
+{{SETCLIPBOARD:$FormattedText1}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$OriginalText1}}
+
+Long Press:
+{{SETCLIPBOARD:$FormattedText1}}
+
+
+--------------
+Button 3 lower case
+--------------
+Short Press:
+{{VarSetFromClipboard:OriginalText1}}
+{{FUNC:LowerCase:FormattedText1:$OriginalText1}}
+{{SETCLIPBOARD:$FormattedText1}}
+{{KeyDown:CTRL}}
+{{PAUSE:50}}
+{{v}}
+{{PAUSE:50}}
+{{KeyUp:CTRL}}
+{{SETCLIPBOARD:$OriginalText1}}
+
+Long Press:
+{{SETCLIPBOARD:$FormattedText1}}
